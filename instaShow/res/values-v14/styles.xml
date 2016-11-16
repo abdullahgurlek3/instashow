@@ -1,0 +1,21 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar"></style>
+
+    <style name="AppBaseThemeBack"></style>
+
+    <style name="AppBaseThemeButton" parent="@android:style/Widget.Button.Inset">
+        <item name="android:drawableEnd">@android:drawable/ic_menu_view</item>
+        <item name="android:background">@drawable/menuitemselector</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="AppBaseThemeColumn"></style>
+
+</resources>

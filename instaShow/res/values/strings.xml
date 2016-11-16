@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">instaShow for instagram</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="refresh">Refresh</string>
+    <string name="following">My followings</string>
+    <string name="followed">Followed</string>
+    <string name="fans">My Fans</string>
+    <string name="medya">Media</string>
+    <string name="mutual">Mutual Friends</string>
+    <string name="yedekle_yukle">Backup / Restore</string>
+    <string name="nonFollower">non Followings</string>
+    <string name="goruntule">Instagram</string>
+    <string name="birak">UnFollow</string>
+    <string name="friendProfil">View</string>
+    <string name="friendFollowOk">Following</string>
+    <string name="friendMutual">Follows</string>
+    <string name="friendNonFollower">Non Followers</string>
+    <string name="friendFans">Fans</string>
+    <string name="friendMedya">Media</string>
+    <string name="friendFollowsWithMe">We Follows</string>
+    <string name="friendFollowedWithMe">We Followed</string>
+    <string name="friendFansWithMe">We Fans</string>
+    <string name="myUnfollowed">My Unfollows</string>
+    <string name="unfollowedMe">Unfollowed ME</string>
+    <string name="newFollowedMe">My New Follows</string>
+    <string name="newMyFollowed">My New Followed</string>
+    <string name="backup">Backup</string>
+    <string name="restore">Restore</string>
+    <string name="friendFollowerCountText">Follows</string>
+    <string name="friendFollowsCountText">Followeds</string>
+    <string name="friendMediaCountText">Media</string>
+    <string name="followIt">Follow It</string>
+    <string name="titleNonFollowers">Your non Followers</string>
+    <string name="titleMutuals">Your Mutual Friends</string>
+    <string name="titleFans">Your Fans</string>
+    <string name="titleNonFollowersYou">non Followers</string>
+    <string name="titleMutualsYou">Mutuals</string>
+    <string name="titleFansYou">Fans</string>
+    <string name="titleNonFollowersWithMe">We follows</string>
+    <string name="titleFollowedWithMe">We followeds</string>
+    <string name="titleFansWithMe">We Fans</string>
+    <string name="loadmore">load more ..</string>
+    <string name="pageText">Page</string>
+    <string name="pageDownloading">Downloading</string>
+    <string name="downloadingFollow">Downloading Follows information</string>
+    <string name="downloadingFollowed">Downloading Followeds information</string>
+    <string name="downloadingProfile">Downloading Profile information</string>
+    <string name="downloadingRelationship">Downloading Relationship information</string>
+    <string name="reDownload">Do you want to download it again?</string>
+    <string name="limitExcepted">Download amount was higher. Do you still want to download?</string>
+    <string name="downloadFailed">There was an error in internet connection.</string>
+    <string name="showDetailedProfile">Show Detailed Profile</string>
+    <string name="showProfile">Show Profile</string>
+    <string name="initiating">Initiating ..</string>
+    <string name="calculating">Calculating .. </string>
+    <string name="saving">Saving ..</string>
+    <string name="followedMe">Followed Me</string>
+    <string name="nonFollowedMe">non Followed Me</string>
+    <string name="follow">Follow</string>
+    <string name="sendRequest">The request was sent</string>
+
+</resources>

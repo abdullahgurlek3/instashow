@@ -1,0 +1,315 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppBaseTheme"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".notfound" >
+
+    <LinearLayout
+        style="@style/AppBaseThemeBack"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="?android:listDivider"
+        android:dividerPadding="2.5dp"
+        android:orientation="vertical"
+        android:showDividers="middle"
+        tools:context="com.agrlek.instashow.MainActivity" >
+
+        <LinearLayout
+            style="@style/AppBaseThemeColumn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/friendText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:padding="10dp"
+                    android:text="@string/hello_world" />
+
+                <ImageView
+                    android:id="@+id/friendProfilePicture"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight=".5"
+                    android:drawableLeft="@android:drawable/btn_star"
+                    android:padding="10dp" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingLeft="6dp"
+                    android:paddingTop="6dp" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:gravity="center"
+                        android:text="@string/friendFollowerCountText" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:gravity="center"
+                        android:text="@string/friendFollowsCountText" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:gravity="center"
+                        android:text="@string/friendMediaCountText" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
+                    android:paddingLeft="6dp" >
+
+                    <TextView
+                        android:id="@+id/friendFollowerCount"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:gravity="center"
+                        android:text="@string/friendFollowerCountText"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/friendFollowsCount"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:gravity="center"
+                        android:text="@string/friendFollowsCountText"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/friendMediaCount"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:gravity="center"
+                        android:text="@string/friendMediaCountText"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp" >
+
+                    <Button
+                        android:id="@+id/instagramGoruntule"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10px"
+                        android:layout_weight="0.3"
+                        android:background="@drawable/instago"
+                        android:text="@string/goruntule"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/friendProfilFollow"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10px"
+                        android:layout_weight="0.3"
+                        android:background="@drawable/instafollow"
+                        android:text="@string/friendFollowOk"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/friendProfilFollow2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10px"
+                        android:layout_weight="0.3"
+                        android:background="@drawable/instagoruntule"
+                        android:text="@string/friendProfil"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="14sp" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+        <!--
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/followingButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_launcher"
+                android:drawableRight="@drawable/ic_launcher"
+                android:hint="@string/abc_shareactionprovider_share_with"
+                android:text="@string/following"
+                android:textStyle="italic"
+                android:typeface="serif" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/followedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_launcher"
+                android:drawableRight="@drawable/ic_launcher"
+                android:text="@string/followed" />
+        </LinearLayout>
+        -->
+
+        <LinearLayout
+            style="@style/AppBaseThemeColumn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/friendMutualButton"
+                style="@style/AppBaseThemeButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/friendMutual" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/AppBaseThemeColumn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/friendNonFollowerButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                   style="@style/AppBaseThemeButton"
+             android:text="@string/friendNonFollower" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/AppBaseThemeColumn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/friendFanButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/AppBaseThemeButton"
+                android:text="@string/friendFans" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/AppBaseThemeColumn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/friendFollowedButtonWithme"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/AppBaseThemeButton"
+                android:text="@string/friendFollowedWithMe" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/AppBaseThemeColumn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/friendNonFollowerButtonWithMe"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/AppBaseThemeButton"
+                android:text="@string/friendFollowsWithMe" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/AppBaseThemeColumn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/friendFanButtonWithMe"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/AppBaseThemeButton"
+                android:text="@string/friendFansWithMe" />
+        </LinearLayout>
+
+        <!--
+        <LinearLayout
+            style="@style/AppBaseThemeColumn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/friendMedya"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:drawable/btn_default_small"
+                android:drawableLeft="@android:drawable/btn_star"
+                android:drawableRight="@android:drawable/ic_menu_send"
+                android:text="@string/friendMedya" />
+        </LinearLayout>
+ 
+        <LinearLayout
+            style="@style/AppBaseThemeColumn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/friendYedekle_yukle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:drawable/btn_default_small"
+                android:drawableLeft="@android:drawable/btn_star"
+                android:drawableRight="@android:drawable/ic_menu_send"
+                android:text="@string/yedekle_yukle" />
+        </LinearLayout>
+        -->
+    </LinearLayout>
+
+</ScrollView>

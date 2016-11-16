@@ -1,0 +1,183 @@
+analiz 
+instagramdaki profil bilgilerini al ekrana yazdır
+tasarım
+ok
+kodlama
+ok
+test
+ok
+----------------
+
+analiz 
+internet bağlantısı olmadığında yeniden bağlan butonu eklenecek
+tasarım
+ok
+kodlama
+ok
+test
+ok
+
+----------------
+
+analiz 
+
+Yenile Butonu eklenecek
+Loading ekranı eklenecek
+404 ekranında geri tuşu çıkış yapacak
+tasarım
+kodlama
+test
+
+----------------
+
+analiz 
+
+Layout yerleşimi ayarlanacak
+
+tasarım
+kodlama
+test
+
+----------------
+
+analiz 
+
+ana layout a scroolbar eklenecek
+
+tasarım
+kodlama
+
+test
+
+----------------
+
+analiz 
+
+Login Ekranı Eklenecek
+Fan sayısı hesaplanacak
+
+tasarım
+kodlama
+test
+----------------
+
+analiz 
+
+Followers following fans unfollowers sayıları belirlenecek
+
+
+tasarım
+kodlama
+test
+
+
+----------------
+
+analiz 
+
+cache sistemi ayarlanacak
+
+tasarım
+kodlama
+test
+
+----------------
+
+analiz 
+
+cache sistemi ayarlanacak
+bitmap cache ayarlanacak
+
+tasarım
+kodlama
+test
+
+----------------
+
+analiz 
+
+ortak arkadaş bölümü eklenecek
+process iptal etme yapılacak
+
+tasarım
+kodlama
+test
+
+----------------
+
+analiz 
+
+friend cache Eklenecek
+friend ortak beğeni bölümü eklenecek 
+
+tasarım
+kodlama
+test
+
+----------------
+
+analiz 
+
+maksimum download sayısı eklenecek
+
+tasarım
+kodlama
+test
+
+---------------------
+
+analiz 
+
+profillight eklenecek
+
+tasarım
+kodlama
+test
+
+---------------------
+
+analiz 
+
+sqlite eklenecek
+friends lere takip ediyor butonu eklenecek
+********** takibi bırak butonu eklenecek
+
+tasarım
+kodlama
+test
+
+
+---------------------
+
+analiz 
+
+linkedhashmap yapılacak
+
+tasarım
+kodlama
+test
+
+---------------------
+
+analiz 
+
+Yedekle Yükle Bölümü ayarlanacak
+pagination yapılacak
+sdcard yüklü olup olmadığına bakılacak
+Buglar düzeltilecek
+
+tasarım
+kodlama
+test
+
+
+---------------------
+
+analiz 
+friendprofil düzenlenecek
+medya buton kaldırılacak
+başlıklar düzenlenecek
+
+tasarım
+kodlama
+test
